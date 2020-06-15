@@ -1,11 +1,9 @@
 import React from "react";
 import StyledDashboard from "../Styles/DashboardStyles";
-import Navigation from "./Navigation";
 
 const Dashboard = () => {
   return (
     <>
-      <Navigation />
       <StyledDashboard>
         <h1 className="h1">
           {" "}
